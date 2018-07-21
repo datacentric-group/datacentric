@@ -1,5 +1,6 @@
 * Data first systems design
 * Database design
+  * Some information is not relational
   * Principles
     * CONSTRAINT all the things
     * Primary keys
@@ -30,6 +31,7 @@
   * The 1+N queries problem
   * Sharding
   * Historical tables
+  * Stepping outside relational databases
 * Tooling
   * RDBMS
     * Standalone
@@ -58,3 +60,7 @@
   * Testing tools
   * Import/Export
   * Anonymization
+  * Non-relational databases
+    * Graph databases
+    * Key-value stores
+    * Document stores
