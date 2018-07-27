@@ -19,6 +19,7 @@ We believe that writing such software should be a solved problem, but it is too 
 This is an index of the topics we believe are relevant to the discussion. Feel free to send us pull requests to expand the index or fill in topics.
 
 * Data first systems design
+* [Why everything here seems to talk about relational databases?](why_everything_is_relational.md)
 * Database design
   * Some information is not relational
   * Principles
