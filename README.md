@@ -24,7 +24,7 @@ This is an index of the topics we believe are relevant to the discussion. Feel f
   * Some information is not relational
   * Principles
     * CONSTRAINT all the things
-    * Primary keys
+    * [Primary keys](database_design/principles/primary_keys.md)
     * Cardinality sins
     * Business operations should map to database operations
     * Normal forms
