@@ -1,18 +1,89 @@
 # datacentric.group
 
-datacentric.group is a community dedicated to database-centric architectures.
+datacentric.group is a community dedicated to data-centric software.
 
-A significant amount of software development revolves around data, but while topics such as test driven development, microservices, devops and many others are constantly discussed online, data management has fallen out of favor in relation to its importance.
+While a lot of software development is not data-centric, we believe that a massive amount of developer time is spent writing software for data management including CRUD.
 
-We believe that writing software which manipulates data should be a solved problem, but it still is embarrassingly costly to write and maintain and that whose difficulties cause significant pain.
+While other topics such as test-driven development, microservices, devops and many others are constantly discussed online, we think that the volume of conversation around data-centric software development does not reflect its importance.
 
-Note that this initiative does not pretend to address all areas of software development, but we think that a lot of software development fits and benefits from this approach.
+We believe that writing such software should be a solved problem, but it is too costly to develop properly in many cases, resulting in suboptimal user satisfaction.
 
 ## Objectives
 
 1. To become a community for relevant discussion
 1. To document best practices
 1. To improve the state of the art
+
+## The Data-Centric Index
+
+This is an index of the topics we believe are relevant to the discussion. Feel free to send us pull requests to expand the index or fill in topics.
+
+* Data first systems design
+* Database design
+  * Some information is not relational
+  * Principles
+    * CONSTRAINT all the things
+    * Primary keys
+    * Cardinality sins
+    * Business operations should map to database operations
+    * Normal forms
+    * Sometimes denormalization isn't
+  * Patterns and antipatterns
+    * Hierarchies
+    * Don't fear the JOIN
+    * Don't fear the CASCADE
+    * Ordered lists
+    * Subtyping
+    * "Extensible" schemas, JSON/XML
+    * Don't serialize
+    * Don't delete
+    * Configuration tables
+    * Lookup tables/enums
+    * Denormalization
+    * Authorization
+    * Materialization
+    * Temporal data
+    * Auditing
+    * Append-only design
+  * Database refactoring
+* Database performance
+  * You probably shouldn't care
+  * The 1+N queries problem
+  * Sharding
+  * Historical tables
+  * Stepping outside relational databases
+* Tooling
+  * RDBMS
+    * Standalone
+      * PostgreSQL
+      * SQL Server
+    * Embedded
+      * H2
+      * SQLite
+  * Schema management/migration/version control
+    * Sqitch
+  * ORMs/language access
+    * Java
+      * JOOQ
+      * Spring JDBC
+    * Clojure
+      * HugSQL
+    * .NET
+      * Linq
+  * CRUD
+    * Web
+      * Django admin
+    * Mobile apps
+    * REST
+    * GraphQL
+    * ERPs
+  * Testing tools
+  * Import/Export
+  * Anonymization
+  * Non-relational databases
+    * Graph databases
+    * Key-value stores
+    * Document stores
 
 ## Contribute
 
