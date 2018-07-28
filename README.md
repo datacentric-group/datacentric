@@ -37,7 +37,7 @@ This is an index of the topics we believe are relevant to the discussion. Feel f
     * Subtyping
     * "Extensible" schemas, JSON/XML
     * [Don't serialize](database_design/patterns_antipatterns/dont_serialize.md)
-    * Don't delete
+    * [Don't delete](database_design/patterns_antipatterns/dont_delete.md)
     * Configuration tables
     * Lookup tables/enums
     * Denormalization
