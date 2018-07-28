@@ -36,7 +36,7 @@ This is an index of the topics we believe are relevant to the discussion. Feel f
     * Ordered lists
     * Subtyping
     * "Extensible" schemas, JSON/XML
-    * Don't serialize
+    * [Don't serialize](database_design/patterns_antipatterns/dont_serialize.md)
     * Don't delete
     * Configuration tables
     * Lookup tables/enums
