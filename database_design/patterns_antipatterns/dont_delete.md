@@ -22,6 +22,8 @@ This can be complex because in some cases, "inactive" entities have related enti
 * Related entries status' should be calculated in terms of its parent entries; a customer asset can be inactive because it specifically has been made inactive or because the whole customer has been made inactive.
 * Status should be propagated in cascade to children entities; when a customer is deactivated, all its assets are marked as inactive
  
+This is somewhat related to [don't fear the CASCADE](dont_fear_the_cascade.md). Propagation and calculation of status shares some functional concerns with propagation of deletions/updates.
+
 While those have different implementations, costs and overheads (notably, calculating state can be complex and become a cross-cutting concern in your code), the foremost consideration is the desired behavior of the system. A calculated status means that if the parent entity is made active again, all children entities revert immediately to their pre-deactivation status. Cascading deactivations don't behave like this and it's hard to implement that behavior.
 
 Implementing status is a big concern in any case; active/inactive status probably needs to be taken into consideration in most places in your application, and forgetting to do so can result in serious bugs. In situations where this is critical, we recommend dealing with this in the most automated way possible; whether using SQL views to create "active tables" and use them by default or using facilities in your development stack to automatically filter out inactive records by default.

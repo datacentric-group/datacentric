@@ -32,7 +32,7 @@ This is an index of the topics we believe are relevant to the discussion. Feel f
   * Patterns and antipatterns
     * Hierarchies
     * Don't fear the JOIN
-    * Don't fear the CASCADE
+    * [Don't fear the CASCADE](database_design/patterns_antipatterns/dont_fear_the_cascade.md)
     * Ordered lists
     * Subtyping
     * "Extensible" schemas, JSON/XML
