@@ -13,7 +13,7 @@ Data-integrity is one of the biggest reasons to use a relational database, and `
 * Moving or removing a file referenced in the database without updating the reference will leave a dangling link and thus integrity will be broken
 * Conversely, if you update a path in the database (say because a database entity must reference a different blob), the old file can be left dangling with no references
 
-As we are not aware of a system which allows us to enforce transactions across a databse or filesystem, these problems can be mitigated but cannot be completely prevented easily.
+As we are not aware of a system which allows us to enforce transactions across a database or filesystem, these problems can be mitigated but cannot be completely prevented easily.
 
 #### Backups
 
