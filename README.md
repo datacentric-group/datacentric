@@ -50,7 +50,7 @@ This is an index of the topics we believe are relevant to the discussion. Feel f
   * Database refactoring
 * Database performance
   * You probably shouldn't care
-  * The 1+N queries problem
+  * [The 1+N queries problem](performance/n_plus_one_queries.md)
   * Sharding
   * Historical tables
   * Stepping outside relational databases
