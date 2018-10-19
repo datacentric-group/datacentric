@@ -34,7 +34,7 @@ This is an index of the topics we believe are relevant to the discussion. Feel f
     * Don't fear the JOIN
     * [Don't fear the CASCADE](database_design/patterns_antipatterns/dont_fear_the_cascade.md)
     * Ordered lists
-    * Subtyping
+    * [Subtyping](database_design/patterns_antipatterns/subtyping.md)
     * [BLOB or not](database_design/patterns_antipatterns/blob_or_not.md)
     * "Extensible" schemas, JSON/XML
     * [Don't serialize](database_design/patterns_antipatterns/dont_serialize.md)
