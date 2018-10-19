@@ -49,7 +49,7 @@ This is an index of the topics we believe are relevant to the discussion. Feel f
     * Append-only design
   * Database refactoring
 * Database performance
-  * You probably shouldn't care
+  * [You probably shouldn't care](performance/dont_care.md)
   * [The 1+N queries problem](performance/n_plus_one_queries.md)
   * Sharding
   * Historical tables
