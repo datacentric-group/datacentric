@@ -37,6 +37,7 @@ This is an index of the topics we believe are relevant to the discussion. Feel f
     * [Subtyping](database_design/patterns_antipatterns/subtyping.md)
     * [BLOB or not](database_design/patterns_antipatterns/blob_or_not.md)
     * "Extensible" schemas, JSON/XML
+    * [Generic foreign keys](database_design/patterns_antipatterns/generic_foreign_keys.md)
     * [Don't serialize](database_design/patterns_antipatterns/dont_serialize.md)
     * [Don't delete](database_design/patterns_antipatterns/dont_delete.md)
     * Configuration tables
