@@ -65,6 +65,7 @@ This is an index of the topics we believe are relevant to the discussion. Feel f
       * SQLite
   * Schema management/migration/version control
     * Sqitch
+    * Migra
   * ORMs/language access
     * Java
       * JOOQ
@@ -81,6 +82,8 @@ This is an index of the topics we believe are relevant to the discussion. Feel f
     * GraphQL
     * ERPs
   * Testing tools
+    * Sample databases
+    * Testcontainers
   * Import/Export
   * Anonymization
   * Non-relational databases
