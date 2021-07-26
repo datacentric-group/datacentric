@@ -95,6 +95,5 @@ This is an index of the topics we believe are relevant to the discussion. Feel f
 
 datacentric.group is currently in a community building phase. We are looking for people who share similar values to help us shape up our mission and vision. If you are interested:
 
-* Join our mailing list at https://datacentric.group/mailman/listinfo/discuss_datacentric.group
 * Create/browse Github Issues
 * Send us Pull Requests
